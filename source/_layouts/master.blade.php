@@ -21,7 +21,7 @@
                   @yield('pre-footer')
               </section>
               <section id="footer" class="left">
-                  @include('_partials.contacts_ru')
+                  @include('_partials.contacts_ru', ['form_name'=>'contact_form_main'])
               </section>
         </div>
 

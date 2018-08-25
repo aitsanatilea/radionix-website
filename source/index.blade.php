@@ -30,9 +30,10 @@
     <a href="#" class="image"><img src="../assets/images/pic02.jpg" alt="" /></a>
     <div class="content">
       <h2 class="major">Продукция</h2>
-      <p>Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non,
-        sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus.
-        Nullam ultrices, neque et faucibus viverra, ex nulla cursus.</p>
+      <p>ОПИСАНИЕ ЗАМЕНИТЬ!!!!!</br>Высокий научно-технический потенциал, наличие материально-технической
+      и испытательной базы и технологические возможности позволяют предприятию осуществлять
+      полный цикл разработки, испытаний и постановки на серийное производство
+      наиболее сложных изделий современной радиоэлектронной техники.</p>
       <a href="products.html" class="special">Далее</a>
     </div>
   </div>
@@ -45,10 +46,6 @@
   <section id="projects" class="wrapper style4">
     <div class="inner">
       <h2 class="major">Проекты</h2>
-      <!-- <p>ОПИСАНИЕ ЗАМЕНИТЬ!!!!!</br>Высокий научно-технический потенциал, наличие материально-технической
-      и испытательной базы и технологические возможности позволяют предприятию осуществлять
-      полный цикл разработки, испытаний и постановки на серийное производство
-      наиболее сложных изделий современной радиоэлектронной техники.</p> -->
       <section class="features">
         <article>
           <a href="/projects/project_1.html" class="image"><img src="../assets/images/pic03.jpg" alt="" /></a>

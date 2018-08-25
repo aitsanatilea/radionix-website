@@ -1,7 +1,7 @@
 <!-- _partials/contacts_ru.blade.php -->
   <div class="inner" id="contact">
     <h2 class="major">Контакты</h2>
-      <form method="post" action="#">
+      <form name="{{$form_name}}" method="POST" action="#" netlify>
       <div class="field">
         <label for="name">Имя</label>
         <input type="text" name="name" id="name" />
