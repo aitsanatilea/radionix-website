@@ -1417,14 +1417,14 @@ body, input, select, textarea {
 
   body#about, body#products {
     background-image: linear-gradient(to top, rgba(46, 49, 65, 0.5), rgba(46, 49, 65, 0.5)), url("../../images/lukasz-lada-246364-unsplash.jpg");
-    background-size: 150% auto;
+    background-size: 100% auto;
     background-repeat: no-repeat;
     background-position: right top;
     background-attachment: fixed;
   }
 
   body.product_pages {
-    background-image: linear-gradient(to top, rgba(46, 49, 65, 0.5), rgba(46, 49, 65, 0.5)), url("../../images/jason-wong-351890-unsplash.jpg");
+    background-image: linear-gradient(to top, rgba(46, 49, 65, 0.5), rgba(46, 49, 65, 0.5)), url("../../images/jason-wong-351890-unsplash_sm.jpg");
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-position: right top;
