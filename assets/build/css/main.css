@@ -3511,6 +3511,10 @@ body.is-menu-visible #menu .inner {
   width: calc(50% - 1.5em);
 }
 
+#footer #contact.inner h2.major {
+  margin-bottom: 2em;
+}
+
 #footer .inner .copyright {
   border-top: solid 2px rgba(255, 255, 255, 0.125);
   list-style: none;
