@@ -1424,7 +1424,8 @@ body, input, select, textarea {
   }
 
   body.product_pages {
-    background-size: 150% cover;
+    background-image: linear-gradient(to top, rgba(46, 49, 65, 0.5), rgba(46, 49, 65, 0.5)), url("../../images/jason-wong-351890-unsplash.jpg");
+    background-size: 100% auto;
     background-repeat: no-repeat;
     background-position: right top;
     background-attachment: fixed;
@@ -2892,7 +2893,7 @@ body.is-menu-visible #menu .inner {
 }
 
 @media screen and (max-width: 1280px) {
-  #wrapper > header {
+  #wrapper > header,  .product_pages #wrapper > header {
     padding: 12em 0 6em 0;
     /* background-color: #2e3141;
 			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg"); */
@@ -2903,28 +2904,28 @@ body.is-menu-visible #menu .inner {
 }
 
 @media screen and (max-width: 980px) {
-  #wrapper > header {
+  #wrapper > header, .product_pages #wrapper > header {
     padding: 11em 3em 7em 3em;
     background-size: auto, cover;
     background-position: center, 0% 0%;
     margin-bottom: -4.75em;
   }
-  #wrapper > header .inner {
+  #wrapper > header .inner, .product_pages #wrapper > header .inner{
     width: 100%;
   }
 }
 
 @media screen and (max-width: 736px) {
-  #wrapper > header {
+  #wrapper > header, .product_pages #wrapper > header {
     padding: 9.5em 2em 6em 2em;
     background-size: auto, 125%;
     margin-bottom: -2.5em;
   }
-  #wrapper > header h2 {
+  #wrapper > header h2, .product_pages #wrapper > header h2 {
     font-size: 1.25em;
   }
 
-  #wrapper > header p {
+  #wrapper > header p, .product_pages #wrapper > header p {
     font-size: 1em;
   }
 }
@@ -3204,7 +3205,8 @@ body.is-menu-visible #menu .inner {
   width: 15em;
   margin: 20px 0 0 0;
   border-radius: 20%;
-  background-color: #2a2f4522;
+  background-color: rgba(42,47,69,0.1);
+  /* background-color: #2a2f4522; */
   opacity: 1;
 }
 
