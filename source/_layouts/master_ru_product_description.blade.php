@@ -9,9 +9,8 @@
     </head>
     <body class="product_pages">
             <div id="page-wrapper">
-                @include('_partials.header', ['menu' => 'Меню', 'class' => ''])
-                @include('_partials.menu', ['menu' => 'Меню', 'main' =>'Главная', 'about' => 'О компании',
-                    'products' => 'Продукция', 'projects' => 'Проекты', 'contact'=>'Контакты', 'close' => 'Закрыть'])
+                @include('_partials.header', ['menu' => 'Меню', 'class' => '', 'lang' =>''])
+                @include('_partials.menu_ru')
                 <section id="wrapper">
                     @yield('title')
                     @yield('content')

@@ -1,4 +1,4 @@
-@extends('_layouts.master_product_description')
+@extends('_layouts.master_ru_product_description')
 
 @section('title')
 <header>
@@ -61,7 +61,7 @@
               <td>-130</td>
             </tr>
             <tr>
-              <td>относительный уровень паразитных составляющих при отстройке от несущей на ±(500 МГц, дБ, не более</td>
+              <td>относительный уровень паразитных составляющих при отстройке от несущей на ±500 МГц, дБ, не более</td>
               <td>-80</td>
             </tr>
           </tbody>

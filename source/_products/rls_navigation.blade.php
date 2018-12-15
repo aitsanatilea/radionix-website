@@ -1,4 +1,4 @@
-@extends('_layouts.master_product_description')
+@extends('_layouts.master_ru_product_description')
 
 @section('title')
 <header>
@@ -42,7 +42,7 @@
                   <td>2</td>
                 </tr>
                 <tr>
-                  <td>котносительная нестабильность за время эксплуатации</td>
+                  <td>относительная нестабильность за время эксплуатации</td>
                   <td>±1x10<sup>-7</sup></td>
                 </tr>
                 <tr>

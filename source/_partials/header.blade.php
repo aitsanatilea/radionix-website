@@ -1,7 +1,7 @@
 <!-- _partials/header.blade.php -->
 <header id="header" class="{{$class}}">
   <h1>
-    <a href="/index.html">
+    <a href="{{$lang}}/index.html">
       <div id="logo-img" alt="{{$page->company_name}}"></div>
     </a>
   </h1>

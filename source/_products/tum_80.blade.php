@@ -1,4 +1,4 @@
-@extends('_layouts.master_product_description')
+@extends('_layouts.master_ru_product_description')
 
 @section('title')
 <header>
@@ -13,7 +13,7 @@
 <div class="wrapper">
   <div class="inner">
     <h3 class="major">Описание</h3>
-    <p>Предназначен для роботы в составе бортовой конерентной метеорологической РЛС.</p>
+    <p>Предназначен для работы в составе бортовой конерентной метеорологической РЛС.</p>
 
     <h3 class="major">Технические характеристики</h3>
     <p>

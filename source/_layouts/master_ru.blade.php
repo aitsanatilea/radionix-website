@@ -9,24 +9,19 @@
     </head>
     <body>
           <div id="page-wrapper">
-              @include('_partials.header', ['menu' => 'Меню', 'class' =>'alt'])
-              @include('_partials.menu', ['menu' => 'Меню', 'main' =>'Главная', 'about' => 'О компании',
-                  'products' => 'Продукция', 'projects' => 'Проекты', 'contact'=>'Контакты', 'close' => 'Закрыть'])
+              @include('_partials.header', ['menu' => 'Меню', 'class' =>'alt', 'lang' =>''])
+              @include('_partials.menu_ru')
               @yield('banner')
               <section id="wrapper">
                   @yield('one')
                   @yield('two')
-                  <!-- @yield('three') -->
                   @yield('projects')
-                  @yield('pre-footer')
               </section>
               <section id="footer" class="left">
                   @include('_partials.contacts_ru', ['form_name'=>'contact_form_main'])
               </section>
         </div>
 
-
-        <!-- <script src="{{ mix('js/main.js', 'assets/build') }}"></script> -->
         <!-- <script src="../../assets/build/js/skel.min.js"></script>
   			<script src="../../assets/build/js/jquery.min.js"></script>
   			<script src="../../assets/build/js/jquery.scrollex.min.js"></script>

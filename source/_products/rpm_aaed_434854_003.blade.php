@@ -1,4 +1,4 @@
-@extends('_layouts.master_product_description')
+@extends('_layouts.master_ru_product_description')
 
 @section('title')
 <header>
@@ -43,7 +43,7 @@
                 <td>X</td>
               </tr>
               <tr>
-                <td>коэффициент усиления(регулируемый), дБ</td>
+                <td>коэффициент усиления (регулируемый), дБ</td>
                 <td>46</td>
               </tr>
               <tr>

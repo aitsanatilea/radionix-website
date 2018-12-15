@@ -1,4 +1,4 @@
-@extends('_layouts.master_products')
+@extends('_layouts.master_ru_products')
 
 @section('title')
 <header>

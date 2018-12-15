@@ -1,9 +1,9 @@
-@extends('_layouts.master_product_description')
+@extends('_layouts.master_ru_product_description')
 
 @section('title')
 <header>
   <div class="inner">
-      <h2>Приёмо-задающий модуль метео-навигационной РЛС</h2>
+      <h2>Приёмо-задающий модуль РЛС системы посадки</h2>
       <!-- <p></p> -->
   </div>
 </header>

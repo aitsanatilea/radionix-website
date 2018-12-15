@@ -9,9 +9,8 @@
     </head>
     <body id="products">
         <div id="page-wrapper">
-            @include('_partials.header', ['menu' => 'Меню', 'class'=>''])
-            @include('_partials.menu', ['menu' => 'Меню', 'main' =>'Главная', 'about' => 'О компании',
-                'products' => 'Продукция', 'projects' => 'Проекты', 'contact'=>'Контакты', 'close' => 'Закрыть'])
+            @include('_partials.header', ['menu' => 'Menu', 'class'=>'', 'lang' =>'/en'])
+            @include('_partials.menu_en')
             <section id="wrapper" class="products">
                   @yield('title')
                   @yield('group_one')
@@ -19,7 +18,7 @@
                   @yield('group_three')
                   @yield('group_four')
               </section>
-              @include('_partials.footer_ru', ['side'=>'right'])
+              @include('_partials.footer_en', ['side'=>'right'])
           </div>
 
           <!-- <script src="{{ mix('js/main.js', 'assets/build') }}"></script> -->
