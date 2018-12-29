@@ -1,7 +1,7 @@
 @extends('_layouts.master_ru')
 
 @section('banner')
-<section id="banner" data-video="../assets/images/logo_radionix_full_hd">
+<section id="banner" data-video="../assets/images/logo_radionix_full_hd" alt="../assets/images/logo_radionix_full_hd.png">
 </section>
 @endsection
 
