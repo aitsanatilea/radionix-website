@@ -2560,6 +2560,31 @@ button:disabled,
   visibility: hidden;
 }
 
+.lang-container {
+  position: absolute;
+  right: 110px;
+  width: 110px;
+  display: inline-block;
+}
+
+.lang-container a {
+  text-align: center;
+  width: 100%;
+  display: block;
+}
+
+.lang-container:hover a:first-child {
+  background-color: rgba(255, 255, 255, 0.075);
+}
+
+.lang-container a:last-child {
+  display: none !important;
+}
+
+.lang-container:hover a:last-child {
+  display: inline-block !important;
+}
+
 @media screen and (max-width: 736px) {
   #header {
     height: 2.75em;
@@ -2592,6 +2617,10 @@ button:disabled,
   #header nav a[href="#menu"]:hover, #header nav a[href="#menu"]:active {
     background-color: inherit;
   }
+  .lang-container {
+    right: 90px;
+    width: 100px;
+  }
 }
 
 @media screen and (max-width: 640px) {
@@ -2610,6 +2639,10 @@ button:disabled,
     text-align: right;
     margin-left: 0;
     padding-right: 1.25em;
+  }
+  .lang-container {
+    right: 35px;
+    width: 90px;
   }
 }
 

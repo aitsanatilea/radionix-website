@@ -5,7 +5,7 @@ return [
     'production' => false,
     'company_name' => 'Radionix',
     'contact_phone' => '+38 (044) 495-52-09',
-    
+
     'contact_post_ru' => '04128, г.Киев, а/я 93',
     'contact_address_1_ru' => 'ООО «Радионикс»',
     'contact_address_2_ru' => 'ул. Гарматная, 2',
@@ -17,11 +17,14 @@ return [
     'contact_address_3_en' => 'Garmatnaya str., 2',
 
     'collections' => [
-      'products' => [
+      'ru' => [
           'path' => '{collection}/{filename}',
       ],
-      'projects' => [
-          'path' => '{collection}/{filename}',
+      'products_ru' => [
+          'path' => 'ru/products//{filename}',
+      ],
+      'projects_ru' => [
+          'path' => 'ru/projects/{filename}',
       ],
       'en' => [
           'path' => '{collection}/{filename}',

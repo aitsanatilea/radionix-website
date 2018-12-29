@@ -9,7 +9,7 @@
     </head>
     <body id="about">
             <div id="page-wrapper">
-                @include('_partials.header', ['menu' => 'Menu', 'class' => '', 'lang' =>'/en'])
+                @include('_partials.header', ['menu' => 'Menu', 'class' => '', 'lang' =>'en'])
                 @include('_partials.menu_en')
                 <section id="wrapper">
                     @yield('title')
